@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Ice-Cream</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center"><h1>our <b>Store</b></h1></div>
+            </div>
+            <div class="row">
+                
+                    <button class="btn btn-white col-12 col-md-1 col-sm-3 offset-sm-1 d-flex justify-content-center custom" onclick="action1()">ALL</btn>
+                    <button class="btn btn-white col-12 col-md-1 col-sm-3 offset-sm-1 d-flex justify-content-center custom" onclick="action2()">SWEETS</btn>
+                    <button class="btn btn-white col-12 col-md-2 col-sm-3 offset-sm-1 custom justify-content-center custom" onclick="action3()">CUPCAKES</btn>   
+                    <button class="btn btn-white col-12 col-md-1 col-sm-3 offset-sm-1 custom justify-content-center custom" onclick="action4()">CAKES</btn>
+                    <button class="btn btn-white col-12 col-md-2 col-sm-3 offset-sm-1 custom justify-content-center custom" onclick="action5()">DOUGHNUTS</btn>           
+                
+            </div>
+            <div class="row" style="margin-top: 20px;">
+                <input type="text" class="form-control col-1 offset-2 col-sm-0.5 offset-sm-2 " placeholder="&#xF002" style="font-family: FontAwesome">
+                <input type="text" class="form-control col-7 col-sm-4.5" id="search" placeholder="Item..." onkeyup="find()">
+
+            </div>
+            <div class="row " style="margin-top: 30px;">
+                <div class="col-xs-12 col-sm-6 col-md-3 offset-1 " id="alpha" >
+                    <img src="sweet.jpg" class="img-fluid" style="height:200px" alt="doughnut"  >
+                    <div class="card ">
+                        <div class="card-title"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sweets &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>$5</b></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 offset-1 " id="beta" >
+                    <img src="cupcakes.jpg" class="img-fluid" style="height:200px"   alt="cupckaes"  >
+                    <div class="card ">
+                        <div class="card-title"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cupcakes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>$5</b></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 offset-1 " id="charlie" >
+                    <img src="cake.jpg" class="img-fluid" style="height:200px"  alt="cakes"  >
+                    <div class="card ">
+                        <div class="card-title"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cakes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>$5</b></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>
